@@ -1,0 +1,53 @@
+body {
+  background-color: papayawhip;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+}
+.element1 {
+  width: 16.5rem;
+  height: 5rem;
+  background-color: purple;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.element2 {
+  width: 16.5rem;
+  height: 12.5rem;
+  background-color: orange;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transition: 2s cubic-bezier(0.29, 1.01, 1, -0.68);
+}
+
+.element2 span {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.element3 img {
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.element3 {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.element2:hover {
+  transform: translateY(9rem);
+}
