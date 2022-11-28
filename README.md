@@ -1,3 +1,3 @@
-CSS basic Transition!
+# Basic CSS Transitions!
 
-This is a basic CSS transition project with a lot of room for improvements. 
+This is a basic CSS transition project with a lot of room for improvements.
