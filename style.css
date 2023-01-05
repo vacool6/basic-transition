@@ -1,3 +1,5 @@
+/* Example 1 */
+
 body {
   background-color: papayawhip;
 }
@@ -26,7 +28,7 @@ section {
   background-color: orange;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  transition: 2s cubic-bezier(0.29, 1.01, 1, -0.68);
+  transition: 2s cubic-bezier(0, 0.45, 1, 0.13);
 }
 
 .element2 span {
@@ -51,3 +53,104 @@ section {
 .element2:hover {
   transform: translateY(9rem);
 }
+
+/* Example 2 */
+
+/* body {
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+span {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  z-index: -1;
+  position: absolute;
+}
+
+section:hover span {
+  animation: bounce 0.5s 2s;
+}
+
+div {
+  width: 5rem;
+  height: 5rem;
+}
+
+div:nth-of-type(1) {
+  background-color: burlywood;
+  transition: transform 1s 0.75s;
+}
+
+div:nth-of-type(4) {
+  transition: transform 1s 0.75s;
+  background-color: rgb(242, 138, 1);
+}
+div:nth-of-type(2) {
+  background-color: rgb(85, 6, 90);
+  transition: transform 1s;
+}
+
+div:nth-of-type(3) {
+  transition: transform 1s;
+  background-color: rgb(13, 21, 110);
+}
+
+h6 {
+  margin: 0;
+}
+
+div:nth-of-type(2) {
+  transform-origin: bottom left;
+}
+
+div:nth-of-type(3) {
+  transform-origin: bottom right;
+}
+
+section:hover div:nth-of-type(1) {
+  transform: translateX(-2rem);
+  transition: transform 0.5s;
+}
+
+section:hover div:nth-of-type(4) {
+  transform: translateX(2rem);
+  transition: transform 0.5s 0.5s;
+}
+section:hover div:nth-of-type(2) {
+  transform: rotate(-180deg);
+  transition: transform 0.75s 1s;
+}
+
+section:hover div:nth-of-type(3) {
+  transform: rotate(180deg);
+  transition: transform 0.75s 1s;
+}
+
+@keyframes bounce {
+  0%,
+  30%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+
+  15% {
+    transform: translateY(-40%);
+  }
+  45% {
+    transform: translateY(-30%);
+  }
+  75% {
+    transform: translateY(-20%);
+  }
+} */
+
